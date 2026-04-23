@@ -1,0 +1,113 @@
+{
+  "updateType": "INITIAL",
+  "type": "PROBE_EXPECTED",
+  "agent": "fs-agent",
+  "agentVersion": "EXPECTED_ANY",
+  "pluginVersion": "EXPECTED_ANY",
+  "orgToken": "EXPECTED_ANY",
+  "userKey": "EXPECTED_ANY",
+  "timeStamp": 0,
+  "requesterEmail": "EXPECTED_ANY",
+  "aggregateModules": false,
+  "preserveModuleStructure": false,
+  "projects": [
+    {
+      "projectToken": "EXPECTED_ANY",
+      "dependencies": [
+        {
+          "artifactId": "Microsoft.WindowsAppSDK",
+          "version": "1.5.240627000",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "Microsoft.WindowsAppSDK.1.5.240627000.nupkg",
+          "dependencyType": "NUGET",
+          "dependencyFile": "src/WindowsSdkProbe/packages.lock.json",
+          "children": [
+            {
+              "artifactId": "Microsoft.WindowsAppSDK.Foundation",
+              "version": "1.5.240627000",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.WindowsAppSDK.Foundation.1.5.240627000.nupkg",
+              "dependencyType": "NUGET",
+              "dependencyFile": "src/WindowsSdkProbe/packages.lock.json",
+              "children": null
+            }
+          ]
+        },
+        {
+          "artifactId": "Microsoft.Windows.SDK.BuildTools",
+          "version": "10.0.22621.3233",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "Microsoft.Windows.SDK.BuildTools.10.0.22621.3233.nupkg",
+          "dependencyType": "NUGET",
+          "dependencyFile": "src/WindowsSdkProbe/packages.lock.json",
+          "children": null
+        },
+        {
+          "artifactId": "Microsoft.Windows.CsWinRT",
+          "version": "2.0.7",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "Microsoft.Windows.CsWinRT.2.0.7.nupkg",
+          "dependencyType": "NUGET",
+          "dependencyFile": "src/WindowsSdkProbe/packages.lock.json",
+          "children": [
+            {
+              "artifactId": "System.Memory",
+              "version": "4.5.5",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "System.Memory.4.5.5.nupkg",
+              "dependencyType": "NUGET",
+              "dependencyFile": "src/WindowsSdkProbe/packages.lock.json",
+              "children": null
+            }
+          ]
+        },
+        {
+          "artifactId": "Newtonsoft.Json",
+          "version": "13.0.3",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "Newtonsoft.Json.13.0.3.nupkg",
+          "dependencyType": "NUGET",
+          "dependencyFile": "src/WindowsSdkProbe/packages.lock.json",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "extraProperties": {
+    "contributionsAvailable": "EXPECTED_ANY",
+    "commitUrl": "EXPECTED_ANY",
+    "gitHubInstallationId": "EXPECTED_ANY",
+    "scmApplicationId": "EXPECTED_ANY",
+    "branchName": "main",
+    "checkRunId": "EXPECTED_ANY",
+    "userOrgToken": "EXPECTED_ANY",
+    "commitId": "EXPECTED_ANY",
+    "scmInstallationId": "EXPECTED_ANY",
+    "repository": "nuget-windows-sdk",
+    "scaResults": "EXPECTED_ANY"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": [
+      "NUGET"
+    ],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "LOCKFILE"
+    }
+  },
+  "contributions": []
+}

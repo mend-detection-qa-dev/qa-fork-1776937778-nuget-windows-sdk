@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseWindowsForms>false</UseWindowsForms>
+    <WindowsSdkPackageVersion>10.0.19041.39</WindowsSdkPackageVersion>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Windows App SDK: unusual date-encoded version scheme -->
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.5.240627000" />
+    <!-- Windows SDK Build Tools: 10.x version scheme -->
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.3233" />
+    <!-- C#/WinRT interop layer -->
+    <PackageReference Include="Microsoft.Windows.CsWinRT" Version="2.0.7" />
+    <!-- Baseline non-Windows package for contrast -->
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

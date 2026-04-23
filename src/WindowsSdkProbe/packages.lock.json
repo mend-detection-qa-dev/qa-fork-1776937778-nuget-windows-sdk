@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "dependencies": {
+    "net8.0-windows10.0.19041.0": {
+      "Microsoft.WindowsAppSDK": {
+        "type": "Direct",
+        "requested": "[1.5.240627000, )",
+        "resolved": "1.5.240627000",
+        "contentHash": "placeholder-hash-windowsappsdk",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.3233",
+          "Microsoft.Windows.CsWinRT": "2.0.7",
+          "Microsoft.WindowsAppSDK.Foundation": "1.5.240627000"
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools": {
+        "type": "Direct",
+        "requested": "[10.0.22621.3233, )",
+        "resolved": "10.0.22621.3233",
+        "contentHash": "placeholder-hash-buildtools"
+      },
+      "Microsoft.Windows.CsWinRT": {
+        "type": "Direct",
+        "requested": "[2.0.7, )",
+        "resolved": "2.0.7",
+        "contentHash": "placeholder-hash-cswinrt",
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        }
+      },
+      "Newtonsoft.Json": {
+        "type": "Direct",
+        "requested": "[13.0.3, )",
+        "resolved": "13.0.3",
+        "contentHash": "placeholder-hash-newtonsoftjson"
+      },
+      "Microsoft.WindowsAppSDK.Foundation": {
+        "type": "Transitive",
+        "resolved": "1.5.240627000",
+        "contentHash": "placeholder-hash-foundation"
+      },
+      "System.Memory": {
+        "type": "Transitive",
+        "resolved": "4.5.5",
+        "contentHash": "placeholder-hash-systemmemory"
+      }
+    }
+  }
+}
